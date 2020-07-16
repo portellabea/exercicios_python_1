@@ -53,4 +53,15 @@ print("A área do círculo é: {}".format(area_circulo()))
 
 #Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
 
+lado_do_quadrado = int(input("Coloque o lado do quadrado: "))
+
+def area_quadrado():
+    area = (lado_do_quadrado * lado_do_quadrado)
+    return area * 2
+
+print("O dobro da área é: {}".format(area_quadrado()))
+
+#Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês.
+#Calcule e mostre o total do seu salário no referido mês.
+
 
