@@ -18,7 +18,7 @@ preco_total_lata = quantidade_de_lata * 80.00
 quantidade_de_galao = round(1 + quantidade_de_tinta/3.6)
 preco_total_galao = quantidade_de_galao * 25.00
 
-print("Somente lata. Quantidade de latas: {:.0f}. Preço final: R$ {:.2f}.".format(quantidade_de_lata,preco_total_lata))
+print("Somente lata. Quantidade de latas: {:.0f}. Preço final: R$ {:.2f}.".format(quantidade_de_lata, preco_total_lata))
 print("Somente galão. Quantidade de galões: {:.0f}. Preço final: R$ {:.2f}.".format(quantidade_de_galao, preco_total_galao))
 
 
